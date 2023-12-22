@@ -8,7 +8,7 @@ import Warranty from "../Reusables/Warranty"
 import TradePartner from "../Reusables/TradePartner"
 
 export default function ContactUs() {
-	const tabs=[{Title:"CONTACT FORM",
+	const tabs=[{Title:"CONTACT US",
 		imgUrl:"https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC8yNTg3ODAxNThlMGUzMzU0MjFjNzdiNzNjODVlNzc0Ni5qcGVn/webp/2000/2000"
 	},{Title:"CAREERS",imgUrl:"https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC8xOWI3ZTQwMzgwNjFjYmIyMjhkY2UzMjNmN2RlMmFlNy5wbmc=/webp/2000/2000"},
 	{Title:"WARRANTY REQUEST",imgUrl:"https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC8wMzhhYTY0N2NlYzgxODdjOWFiNmM4MDJlY2I0OWRmNS5qcGVn/webp/2000/2000"},
@@ -29,7 +29,7 @@ export default function ContactUs() {
 						alt="hero image" className="object-cover w-full h-full blur-[2px]" /></div>
 				<div className="hero-bottom-design absolute bottom-5 w-full flex flex-col items-center justify-center h-[70px] text-white">
 					<div className="heading w-full flex flex-col items-center justify-center">
-						<h1 className="text-6xl">CONTACT US</h1>
+						<h1 className="text-6xl">{selectedTab.Title}</h1>
 					</div>
 					<hr className="border-red-500 border-4 w-[150px] mt-6" />
 				</div>
