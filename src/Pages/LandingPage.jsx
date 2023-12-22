@@ -82,7 +82,7 @@ export default function LandingPage() {
 			<div className="hero-wrapper relative h-[500px] md:h-[600px] lg:h-[700px] w-[100%] transition-all">
 				<div className="hero-video h-full w-full hidden md:block">
 					<video
-						src={HeroVideo}
+						src="https://s3.amazonaws.com/buildercloud/fffa60a1b1692fc4bc91dd962360ed51/HomePage_short_lr.mp4"
 						preload='auto'
 						loop autoPlay muted playsInline
 						className='h-video h-full w-full object-cover object-center'
